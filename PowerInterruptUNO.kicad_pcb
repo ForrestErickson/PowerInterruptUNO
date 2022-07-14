@@ -4,9 +4,15 @@
     (thickness 1.6)
   )
 
-  (paper "A4")
+  (paper "USLetter")
   (title_block
-    (date "mar. 31 mars 2015")
+    (title "PowerInterruptUNO")
+    (date "2022-07-14")
+    (rev "0.1")
+    (company "Amused Scientist")
+    (comment 1 "(Forrest) Lee Erickson")
+    (comment 2 "however is not guaranteed to do so.")
+    (comment 3 "Warranty: Designed to kill you and render the earth uninhabitable,")
   )
 
   (layers
