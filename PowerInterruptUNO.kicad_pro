@@ -55,16 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|112279999|97523125|592536a0-787a-46ae-a230-270edce38bc9|e37b79bf-98e8-4522-b749-f0e7c6a98bbc",
-        "courtyards_overlap|115000001|96115438|bb4133bc-3489-470f-828c-8fe66dfe4c0d|e37b79bf-98e8-4522-b749-f0e7c6a98bbc",
-        "silk_over_copper|100000000|67775000|16738e8d-f64a-4520-b480-307e17fc6e64|982b9761-ab56-49db-ba45-9fd16af13aeb",
-        "silk_over_copper|100000000|75075000|16738e8d-f64a-4520-b480-307e17fc6e64|6b6bb2f8-df5f-4287-82cb-2e764a9bfbba",
-        "silk_over_copper|100000000|87820000|16738e8d-f64a-4520-b480-307e17fc6e64|b176a5ff-b928-4063-8f55-32b83261560a",
-        "silk_over_copper|100000000|96940000|16738e8d-f64a-4520-b480-307e17fc6e64|ce990ada-b7bf-4a39-a848-0db5f2a57c7d",
-        "silk_over_copper|164710000|47870000|a1531b39-8dae-4637-9a8d-49791182f594|d9865338-d0b8-43dc-a482-232c73779af2",
-        "silk_over_copper|164830000|47990000|a1531b39-8dae-4637-9a8d-49791182f594|499c4f11-07c7-42dc-9233-f46900fc9b26"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -73,7 +64,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -95,7 +86,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "error",
+        "silk_over_copper": "ignore",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
