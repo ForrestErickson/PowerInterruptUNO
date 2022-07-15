@@ -9,8 +9,12 @@ KiCad 6 schematic started 20220714 about 2:00 PM EDT.
 ![image of white board](/20220714_204146WhiteBoardResized.jpg)
 
 The schematic
+![Schematic.gif](Schematic.gif)
 
 The component palcement
+![PCB_Placement.gif](PCB_Placement.gif)
+
+
 
 
 
