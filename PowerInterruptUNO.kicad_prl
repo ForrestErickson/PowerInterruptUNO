@@ -43,7 +43,6 @@
       14,
       15,
       16,
-      17,
       18,
       19,
       20,
@@ -65,7 +64,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "Arduino_Uno.kicad_prl",
+    "filename": "PowerInterruptUNO.kicad_prl",
     "version": 3
   },
   "project": {
