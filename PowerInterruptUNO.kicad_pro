@@ -37,11 +37,11 @@
           "height": 4.064,
           "width": 4.064
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_size_h": 0.7,
+        "silk_text_size_v": 0.7,
+        "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
@@ -55,7 +55,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|112279999|97523125|592536a0-787a-46ae-a230-270edce38bc9|e37b79bf-98e8-4522-b749-f0e7c6a98bbc",
+        "courtyards_overlap|115000001|96115438|bb4133bc-3489-470f-828c-8fe66dfe4c0d|e37b79bf-98e8-4522-b749-f0e7c6a98bbc",
+        "silk_over_copper|100000000|67775000|16738e8d-f64a-4520-b480-307e17fc6e64|982b9761-ab56-49db-ba45-9fd16af13aeb",
+        "silk_over_copper|100000000|75075000|16738e8d-f64a-4520-b480-307e17fc6e64|6b6bb2f8-df5f-4287-82cb-2e764a9bfbba",
+        "silk_over_copper|100000000|87820000|16738e8d-f64a-4520-b480-307e17fc6e64|b176a5ff-b928-4063-8f55-32b83261560a",
+        "silk_over_copper|100000000|96940000|16738e8d-f64a-4520-b480-307e17fc6e64|ce990ada-b7bf-4a39-a848-0db5f2a57c7d",
+        "silk_over_copper|164710000|47870000|a1531b39-8dae-4637-9a8d-49791182f594|d9865338-d0b8-43dc-a482-232c73779af2",
+        "silk_over_copper|164830000|47990000|a1531b39-8dae-4637-9a8d-49791182f594|499c4f11-07c7-42dc-9233-f46900fc9b26"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -121,7 +130,9 @@
         0.0,
         0.2,
         0.4,
-        0.6
+        0.6,
+        1.2,
+        2.4
       ],
       "via_dimensions": [
         {
@@ -135,6 +146,10 @@
         {
           "diameter": 0.8,
           "drill": 0.4
+        },
+        {
+          "diameter": 1.4,
+          "drill": 1.0
         }
       ],
       "zones_allow_external_fillets": false,
@@ -356,7 +371,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Arduino_Uno.kicad_pro",
+    "filename": "PowerInterruptUNO.kicad_pro",
     "version": 1
   },
   "net_settings": {
